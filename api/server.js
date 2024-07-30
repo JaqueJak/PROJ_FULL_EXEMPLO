@@ -11,4 +11,4 @@ app.use(cors());
 app.use(express.json());
 app.use(rotes);
 
-app.listen(PORT, () => { console.log("API de OSs respondendo na porta 3000")});
+app.listen(PORT, () => { console.log("API de OSs respondendo na porta 3000") + PORT});
